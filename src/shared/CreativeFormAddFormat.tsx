@@ -31,6 +31,7 @@ const CreativeFormAddFormat = ({ creative }: any) => {
 
   const addFormat = (_e: any) => {
     setDisplay(true);
+    setCreativ( { ...creative } );
   };
 
   const handleSubmit = (e: any) => {
@@ -52,12 +53,17 @@ const CreativeFormAddFormat = ({ creative }: any) => {
   };
 
   useEffect(() => {
+    
+  }, [creativ]);
+
+  
+  useEffect(() => {
     if (formData.width && formData.height) {
       mutate(creativ);
       setSubmitted(false);
       setFormData({ width: "", height: "" });
     }
-  }, [submitted,creativ]);
+  }, [submitted]);
 
   if (isLoading) return <>"Saving your changes ..."</>;
   return (
