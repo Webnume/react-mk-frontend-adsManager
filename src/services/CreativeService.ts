@@ -27,7 +27,7 @@ const findById = async (id: any) => {
 };
 const findByTitle = async (title: string) => {
   const response = await apiClient.get<CreativeT[]>(
-    `/creatives?title=${title}`
+    `/creatives?title=${title}` 
   );
   return response.data;
 };
