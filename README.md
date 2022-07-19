@@ -16,6 +16,8 @@ Ce projet est réalisé avec [ReactJS](https://reactjs.org/)
 et [Typescript](https://github.com/microsoft/TypeScript). C'est une application permettant l'édition de
 bannières de publicité.
 
+Deployed on Netlify : [Live Demo](https://serene-pie-dd151c.netlify.app/)
+
 Le projet est bootstrappé avec [Create React App](https://github.com/facebook/create-react-app).
 
 Il utilise les bibliothèques suivantes :
