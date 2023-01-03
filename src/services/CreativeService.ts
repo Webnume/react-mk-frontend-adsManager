@@ -2,7 +2,7 @@ import axios from "axios";
 import CreativeT from "../types/CreativeT";
 
 // export const CREATIVE_BASE_URL = "http://localhost:3001";
-export const CREATIVE_BASE_URL = "https://adsmanager-mk.herokuapp.com";
+export const CREATIVE_BASE_URL = "https://react-mk-frontend-adsmanager-backend.onrender.com";
 
 const apiClient = axios.create({
   baseURL: CREATIVE_BASE_URL,
